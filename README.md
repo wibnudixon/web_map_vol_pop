@@ -3,7 +3,8 @@ Based on the latitude, longitude and elevation found in the volcanoes.txt file.
 The script app_2.py generates a html with a map of where the volcanoes are found in US. 
 This script can be used to plot other information if the input volcanoes.txt file is replaced with other inputs of the same format. 
 
-## Creating the environment 
+
+## Creating the environment [python 3.9.6]
 Go to the root folder of the repository
 Run the following command
 `C:\Users\GitHub\web_map_vol_pop>py -m venv venv`
@@ -25,3 +26,7 @@ Run the following command.
 VOLCANX020,
 NUMBER,
 NAME,LOCATION,STATUS,ELEV,TYPE,TIMEFRAME,LAT,LON
+
+## Output
+
+Once the script runs, a HTML file will be generated. Please open that file to see the visualization which creates the map markers in the map. 
